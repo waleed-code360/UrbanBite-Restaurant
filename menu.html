@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - UrbanBite</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">Urban<span>Bite</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html" class="active">Menu</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="menu-btn" id="menuBtn" type="button">☰</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1>Our <span>Menu</span></h1>
+            <p>Choose your favourite meal.</p>
+        </section>
+
+        <section class="section">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-category="all">All</button>
+                <button class="filter-btn" data-category="burger">Burgers</button>
+                <button class="filter-btn" data-category="pizza">Pizza</button>
+                <button class="filter-btn" data-category="drink">Drinks</button>
+            </div>
+
+            <div class="menu-grid">
+                <article class="menu-item" data-category="burger"><h3>Classic Beef Burger</h3><p>Beef patty, cheese, lettuce and signature sauce.</p><span>Rs. 899</span></article>
+                <article class="menu-item" data-category="burger"><h3>Chicken Crunch Burger</h3><p>Crispy chicken, fresh vegetables and spicy mayo.</p><span>Rs. 799</span></article>
+                <article class="menu-item" data-category="burger"><h3>Double Cheese Burger</h3><p>Double beef patties with melted cheese and sauce.</p><span>Rs. 1,099</span></article>
+                <article class="menu-item" data-category="pizza"><h3>Chicken Fajita Pizza</h3><p>Chicken, peppers, onions and mozzarella cheese.</p><span>Rs. 1,299</span></article>
+                <article class="menu-item" data-category="pizza"><h3>Pepperoni Pizza</h3><p>Pepperoni, tomato sauce and mozzarella cheese.</p><span>Rs. 1,399</span></article>
+                <article class="menu-item" data-category="pizza"><h3>Veggie Pizza</h3><p>Fresh vegetables, olives and mozzarella cheese.</p><span>Rs. 1,149</span></article>
+                <article class="menu-item" data-category="drink"><h3>Fresh Lime</h3><p>Refreshing lime drink served chilled.</p><span>Rs. 299</span></article>
+                <article class="menu-item" data-category="drink"><h3>Mint Margarita</h3><p>Fresh mint, lemon and crushed ice.</p><span>Rs. 399</span></article>
+                <article class="menu-item" data-category="drink"><h3>Cold Coffee</h3><p>Chilled creamy coffee topped with foam.</p><span>Rs. 449</span></article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div><h2 class="logo">Urban<span>Bite</span></h2><p>Fresh food. Great moments.</p></div>
+        <div><p>123 Food Street, Lahore</p><p>+92 300 1234567</p><p>info@urbanbite.com</p></div>
+        <p>© 2026 UrbanBite Restaurant</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

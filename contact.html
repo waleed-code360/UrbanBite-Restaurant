@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - UrbanBite</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">Urban<span>Bite</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <button class="menu-btn" id="menuBtn" type="button">☰</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1>Contact <span>Us</span></h1>
+            <p>Reserve a table or send us a message.</p>
+        </section>
+
+        <section class="section">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2>Visit UrbanBite</h2>
+                    <p>123 Food Street, Lahore</p>
+                    <p>+92 300 1234567</p>
+                    <p>info@urbanbite.com</p>
+                    <h2>Opening Hours</h2>
+                    <table class="hours-table">
+                        <tr><td>Monday - Thursday</td><td>12 PM - 11 PM</td></tr>
+                        <tr><td>Friday</td><td>2 PM - 12 AM</td></tr>
+                        <tr><td>Saturday - Sunday</td><td>12 PM - 12 AM</td></tr>
+                    </table>
+                </div>
+
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" placeholder="Enter your message"></textarea>
+                    </div>
+                    <button type="submit" class="btn primary-btn">Send Message</button>
+                    <p class="form-message" id="formMessage"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div><h2 class="logo">Urban<span>Bite</span></h2><p>Fresh food. Great moments.</p></div>
+        <div><p>123 Food Street, Lahore</p><p>+92 300 1234567</p><p>info@urbanbite.com</p></div>
+        <p>© 2026 UrbanBite Restaurant</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

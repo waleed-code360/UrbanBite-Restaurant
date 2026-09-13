@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - UrbanBite</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">Urban<span>Bite</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="menu-btn" id="menuBtn" type="button">☰</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1>Our <span>Gallery</span></h1>
+            <p>A glimpse of our food and restaurant.</p>
+        </section>
+
+        <section class="section">
+            <div class="gallery-grid">
+                <img class="gallery-image" src="images/burger.jpeg" alt="Burger">
+                <img class="gallery-image" src="images/pizza.jpeg" alt="Pizza">
+                <img class="gallery-image" src="images/pasta.jpeg" alt="Pasta">
+                <img class="gallery-image" src="images/dessert.jpeg" alt="Dessert">
+                <img class="gallery-image" src="images/indoor.jpeg" alt="Restaurant interior">
+                <img class="gallery-image" src="images/dining.jpeg" alt="Dining area">
+            </div>
+        </section>
+
+        <div class="gallery-modal" id="galleryModal">
+            <button id="closeModal" type="button">×</button>
+            <img id="modalImage" src="" alt="Selected gallery image">
+        </div>
+    </main>
+
+    <footer>
+        <div><h2 class="logo">Urban<span>Bite</span></h2><p>Fresh food. Great moments.</p></div>
+        <div><p>123 Food Street, Lahore</p><p>+92 300 1234567</p><p>info@urbanbite.com</p></div>
+        <p>© 2026 UrbanBite Restaurant</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
